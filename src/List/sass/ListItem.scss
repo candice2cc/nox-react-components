@@ -1,0 +1,21 @@
+@import "../../../common/sass/variables";
+.listItem{
+
+}
+.itemWrapper {
+  position: relative;
+  padding: 0 $space-md;
+  height: $height-lg;
+  line-height: $height-lg;
+
+  :global {
+    .icon-arrow-up, .icon-arrow-down {
+      height: $height-lg;
+      line-height: $height-lg;
+      position: absolute;
+      right: $space-md;
+    }
+
+  }
+}
+

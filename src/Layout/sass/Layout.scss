@@ -1,0 +1,14 @@
+@import "../../../common/sass/variables";
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  overflow: auto;
+  background: $layout-body-background;
+
+}
+
+.layoutHasSider {
+  flex-direction: row;
+}

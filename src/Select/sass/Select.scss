@@ -1,0 +1,175 @@
+@import "../../../common/sass/variables";
+
+$selectWidth: 140px;
+.select {
+  width: $selectWidth;
+}
+
+.control {
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: $color-black-8;
+  cursor: pointer;
+
+  :global {
+    .icon-arrow-up, .icon-arrow-down {
+      margin-left: $space-sm;
+    }
+
+  }
+}
+
+.openedControl {
+  color: $font-color-active;
+}
+
+.dropdown {
+  //max-height: 360px !important;
+  overflow-y: auto;
+  box-shadow: $box-shadow;
+
+  :global {
+    .icon-check {
+      color: #e5e7eb;
+      margin-right: $space-sm;
+    }
+    .icon-checked {
+      color: $font-color-active;
+      margin-right: $space-sm;
+    }
+
+  }
+
+}
+
+.singleMenu {
+  width: $selectWidth;
+  background-color: $bg-color-white;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: $color-black-6;
+  font-size: $font-size-sm;
+
+  .menuItem {
+
+    &:hover {
+      color: $font-color-active;
+    }
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+    height: $height-lg;
+    line-height: $height-lg;
+    color: $color-black-6;
+
+  }
+
+  .selectedMenuItem {
+    color: $font-color-active;
+  }
+}
+
+.multipleMenu {
+  padding: 8px 16px;
+  width: 512px;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+
+  background-color: $bg-color-white;
+  color: $color-black-6;
+  font-size: $font-size-sm;
+
+  .menuItem {
+    box-sizing: border-box;
+    flex: 0 0 25%;
+    height: 40px;
+    &:hover {
+      color: $font-color-active;
+      :global {
+        .icon-check {
+          color: #e5e7eb;
+        }
+      }
+
+    }
+  }
+
+  .itemWrapper {
+    padding: 0;
+  }
+}
+
+.footer {
+  background-color: $bg-color-white;
+  height: $height-lg;
+  line-height: 47px;
+  padding-left: 16px;
+
+  color: $color-black-6;
+  font-size: $font-size-sm;
+  border-top: 1px solid $border-color;
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+
+  .checkAll {
+    cursor: pointer;
+    &:hover {
+      color: $font-color-active;
+      :global {
+        .icon-check {
+          color: #e5e7eb;
+        }
+      }
+
+    }
+  }
+
+  .alert {
+    color: $color-black-4;
+    margin-left: $space-md;
+  }
+
+  .error {
+    @extend .alert;
+    color: $color-danger;
+
+  }
+  .hint {
+    @extend .alert;
+  }
+
+  .btnCancel {
+    float: right;
+    width: 88px;
+  }
+  .btnApply {
+    float: right;
+    width: 88px;
+    color: $font-color-active;
+
+  }
+
+  .sep {
+    float: right;
+    width: 1px;
+    height: 16px;
+    background-color: $border-color;
+    margin-top: 16px;
+  }
+
+}
+
+
+
+
+
