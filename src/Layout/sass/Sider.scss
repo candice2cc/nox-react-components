@@ -1,0 +1,6 @@
+@import "../../../common/sass/variables";
+
+.sider{
+  flex: 0 0 $layout-sider-width;
+  background-color: $layout-sider-background;
+}
