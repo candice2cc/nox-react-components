@@ -4,7 +4,7 @@
 import {Component, PropTypes} from 'react';
 import {unstable_renderSubtreeIntoContainer, unmountComponentAtNode} from 'react-dom';
 
-import Dom from '../utils/dom'
+import Dom from '../../utils/dom'
 
 class RenderToLayer extends Component {
     static propTypes = {
