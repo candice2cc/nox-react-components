@@ -1,0 +1,60 @@
+@import '../../common/sass/variables';
+
+.root {
+  height: 48px;
+  line-height: 48px;
+
+  .select {
+    display: inline-block;
+    width: auto;
+
+  }
+  .selectControl {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 16px;
+  }
+
+  .totalPage {
+    color: $color-black-6;
+    font-size: $font-size-sm;
+  }
+  .pageWrapper, .pageNone {
+    float: right;
+    display: inline-block;
+  }
+
+  .pageNone {
+    padding-right: 16px;
+    color: $color-black-6;
+    font-size: $font-size-sm;
+  }
+  .page {
+    display: inline-block;
+    color: $color-black-6;
+    font-size: $font-size-sm;
+    padding: 0 19.5px;
+    border-left: 1px solid $border-color;
+    cursor: pointer;
+    &:hover {
+      color: $font-color-active;
+    }
+
+  }
+  .pageDisabled {
+    color: $color-black-2;
+    cursor: default;
+    &:hover {
+      color: $color-black-2;
+    }
+  }
+
+  .pageActive {
+    color: $white;
+    background-color: $color-primary;
+    &:hover {
+      color: $white;
+    }
+  }
+
+}

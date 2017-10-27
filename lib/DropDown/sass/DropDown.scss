@@ -1,0 +1,14 @@
+@import '../../common/sass/variables';
+
+.dropdown {
+  display: none;
+}
+
+.noAnimation {
+  position: fixed;
+  z-index: $zIndex-drop-down;
+}
+
+.animation {
+  overflow-y: auto;
+}

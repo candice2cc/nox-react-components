@@ -1,0 +1,73 @@
+//Color
+$white: #ffffff;
+$black: #000000;
+
+$color-primary: #247ddc;
+$color-success: #41ba47;
+$color-danger: #f94844;
+$color-warning: #f5b723;
+
+$color-primary-lighter: lighten($color-primary, 10%);
+$color-primary-light: lighten($color-primary, 5%);
+$color-primary-dark: darken($color-primary, 5%);
+$color-primary-darker: darken($color-primary, 10%);
+
+$bg-color-white: $white;
+$bg-color-light: #f7f8fa;
+$border-color: #f1f2f4;
+
+$font-color-active: #247ddc;
+
+$color-white-10: $white;
+$color-white-8: transparentize($white, 0.2);
+$color-white-6: transparentize($white, 0.4);
+$color-white-4: transparentize($white, 0.6);
+$color-white-2: transparentize($white, 0.8);
+
+$color-black-10: $black;
+$color-black-8: transparentize($black, 0.2);
+$color-black-6: transparentize($black, 0.4);
+$color-black-4: transparentize($black, 0.6);
+$color-black-2: transparentize($black, 0.8);
+
+//Font Size
+$font-size-xxl: 32px;
+$font-size-xl: 24px;
+$font-size-lg: 20px;
+$font-size-md: 16px;
+$font-size-sm: 14px;
+$font-size-xs: 12px;
+
+//Height
+$height-md: 40px;
+$height-lg: 48px;
+$height-xl: 56px;
+
+//Space
+$space-sm: 8px;
+$space-md: 16px;
+$space-lg: 32px;
+
+//Layout
+$layout-body-background: $bg-color-light;
+$layout-header-background: $bg-color-white;
+$layout-header-height: 80px;
+
+$layout-sider-width: 200px;
+$layout-sider-background: $color-primary;
+
+$zIndex-menu: 1000;
+$zIndex-dialog-overlay: 1200;
+$zIndex-dialog: 1500;
+$zIndex-layer: 2000;
+$zIndex-drop-down: 2100;
+
+//shadow
+$box-shadow-lighter: 0 1px 4px rgba(0, 0, 0, 0.05);
+$box-shadow-light: 0 1px 8px rgba(0, 0, 0, 0.05);
+$box-shadow: 0 1px 8px rgba(0, 0, 0, 0.10);
+
+
+
+
+
