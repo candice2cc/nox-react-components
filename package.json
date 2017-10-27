@@ -1,6 +1,6 @@
 {
   "name": "nox-react-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UI components built with React",
   "main": "./src/index.js",
   "scripts": {
