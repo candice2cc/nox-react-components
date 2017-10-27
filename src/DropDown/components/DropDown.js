@@ -1,7 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import ReactDOM from 'react-dom';
 import EventListener from 'react-event-listener';
-import RenderToLayer from '../../common/RenderToLayer';
+import RenderToLayer from '../../common/components/RenderToLayer';
 import propTypes from '../../utils/propTypes';
 import throttle from 'lodash.throttle';
 import DropDownAnimation from './DropDownAnimation';
